@@ -172,6 +172,26 @@
 
 @media only screen and (max-width: 320px){
 
-    
+    .left-main-wrapper__top-list{
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left-main-wrapper__link{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-direction: column;
+    }
+
+    .left-main-wrapper__btm-list{
+        display: none;
+    }
+
+    .right-videos-big,
+    .right-videos--none{
+        display: none;
+    }
     
 }

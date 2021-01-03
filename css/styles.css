@@ -807,6 +807,38 @@ img {
   content: "";
 }
 
+@media only screen and (max-width: 320px) {
+  .left-main-wrapper__top-list {
+    width: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .left-main-wrapper__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-self: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .left-main-wrapper__btm-list {
+    display: none;
+  }
+  .right-videos-big,
+  .right-videos--none {
+    display: none;
+  }
+}
+
 .testsss {
   margin-left: auto;
   margin-right: auto;
