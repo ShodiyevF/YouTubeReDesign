@@ -1,0 +1,29 @@
+.site-main{
+    display: flex;
+}
+
+.left-main-wrapper{
+    margin-right: 115px;
+}
+
+.left-main-wrapper___container{
+    max-width: 134px;
+    padding-left: 20px;
+    padding-right: 20px;
+    // margin-left: auto;
+}
+
+@media only screen and (max-width: 320px){
+    
+    .testsss{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .left-main-wrapper{
+        // display: flex;
+        order: 2;
+    }
+    
+}

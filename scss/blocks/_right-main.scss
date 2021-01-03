@@ -1,0 +1,59 @@
+.right-main-wrapper__container{
+    // margin-right: auto;
+}
+
+.testsss{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.right-videos{
+    margin-bottom: 50px;
+}
+
+.right-main-wrapper__title{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.right-main-wrapper__title::before{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("/img/opacha.jpg");
+    content: "";
+}
+
+.right-main-btns{
+    width: 66px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.btns-lr{
+    width: 28px;
+    height: 28px;
+}
+
+.right-main-btns__left{
+    background-image: url("/img/Left.png");
+}
+
+.right-main-btns__right{
+    background-image: url("/img/right.png");
+    margin-left: auto;
+}
+
+.test{
+    max-width: 1515px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}

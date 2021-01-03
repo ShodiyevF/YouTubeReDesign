@@ -1,0 +1,184 @@
+.site-header{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-wrapper{
+    display: flex;
+}
+
+.left-wrapper__btn-logo{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.left-wrapper__btn{
+    width: 20px;
+    height: 17px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    margin-right: 28px;
+    background-image: url("/img/hamburger.svg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.left-wrapper__logo-link{
+    padding: 0;
+    height: 25px;
+}
+
+.left-wrapper__input{
+    // position: relative;
+    width: 830px;
+    height: 44px;
+    border: none;
+    border-radius: 22px;
+    padding-left: 23px;
+    background-color: #EBEBEB;
+}
+
+.left-wrapper__input::before{
+    display: block;
+    position: absolute;
+    width: 219px;
+    height: 19px;
+    background-color: red;
+    top: 0;
+    left: 0;
+    // right: 0;
+    background-image: url("/img/search.svg");
+    background-size: cover;
+    background-position: center center;
+    content: "";
+}
+
+// LEFT TUGADI
+
+// RIGHT BOSHANDI
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.btn-group__btn-camera{
+    width: 27px;
+    height: 20px;
+    background-image: url("/img/camera.svg");
+    margin-right: 50px;
+}
+
+.btn-group__btn-3dot{
+    width: 21px;
+    height: 21px;
+    background-image: url("/img/3 dot.svg");
+    margin-right: 50px;
+}
+
+.btn-group__btn-bell{
+    width: 22px;
+    height: 26px;
+    background-image: url("/img/bel.svg");
+    margin-right: 50px;
+    position: relative;
+}
+
+.btn-group__btn-bell::after{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    top: -20%;
+    left: 35%;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    margin-right: 50px;
+    background-color: #FF0000;
+    content: "3";
+}
+
+.btn-group__btn-profil{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("/img/profil.jpg");
+    background-size: cover;
+    margin-right: 50px;
+}
+
+.left-wrapper__search-btn{
+    display: none;
+}
+
+@media only screen and (max-width: 320px){
+
+    .site-header{
+        // margin-bottom: 24px;
+        padding-bottom: 24px;
+    }
+
+    .header-container{
+        display: flex;
+        align-items: center;
+    }
+    
+    .left-wrapper{
+        display: flex;
+        align-items: center;
+    }
+
+    .left-wrapper__btn{
+        display: none;
+    }
+
+    .left-wrapper__btn-logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .left-wrapper__input{
+        display: none;
+    }
+    
+    .btn-group__btn-camera,
+    .btn-group__btn-3dot,
+    .btn-group__btn-bell{
+        display: none;
+    }
+
+    .left-wrapper__search-btn{
+        display: block;
+        width: 19px;
+        height: 19px;
+        background-size: cover;
+        background-position: center center;
+        background-image: url("/img/Search2.svg");
+        border: none;
+        background-color: transparent   ;
+        margin-right: 24px;
+    }
+
+    .btn-group__btn-profil{
+        margin-left: auto;
+        margin-right: 0;
+    }
+    
+}
