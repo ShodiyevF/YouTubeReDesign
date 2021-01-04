@@ -174,8 +174,11 @@
 
     .left-main-wrapper__top-list{
         width: 320px;
+        height: auto;
         display: flex;
         justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .left-main-wrapper__link{
@@ -183,6 +186,10 @@
         align-items: center;
         justify-self: center;
         flex-direction: column;
+    }
+    .left-main-wrapper__item{
+        
+        margin: 0;
     }
 
     .left-main-wrapper__btm-list{
@@ -192,6 +199,10 @@
     .right-videos-big,
     .right-videos--none{
         display: none;
+    }
+
+    .left-main-wrapper___container{
+        padding: 0;
     }
     
 }
